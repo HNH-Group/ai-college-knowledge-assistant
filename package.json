@@ -1,0 +1,35 @@
+{
+  "name": "ai-college-knowledge-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:web": "pnpm --dir apps/web dev",
+    "dev:api": "pnpm --dir apps/api start:dev",
+    "build:web": "pnpm --dir apps/web build",
+    "build:api": "pnpm --dir apps/api build",
+    "lint:web": "pnpm --dir apps/web lint",
+    "lint:api": "pnpm --dir apps/api lint",
+    "lint": "pnpm lint:web && pnpm lint:api",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:api": "pnpm --dir apps/api test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.10.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.10.1",
+  "type": "module",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.9"
+  }
+}
