@@ -19,17 +19,17 @@ The project uses a **monorepo architecture** with Next.js for the frontend and N
 
 ## Tech Stack
 
-| Area | Technology |
-|---|---|
-| Frontend | Next.js, React, TypeScript |
-| Styling | Tailwind CSS |
-| Backend | NestJS, Node.js, TypeScript |
-| AI integration | Planned: LLM, RAG, LangChain |
-| Database | Planned: PostgreSQL with pgvector |
-| Package manager | pnpm |
-| Code quality | ESLint, Oxlint, Prettier |
-| Git hooks | Husky, lint-staged |
-| CI/CD | GitHub Actions |
+| Area            | Technology                        |
+| --------------- | --------------------------------- |
+| Frontend        | Next.js, React, TypeScript        |
+| Styling         | Tailwind CSS                      |
+| Backend         | NestJS, Node.js, TypeScript       |
+| AI integration  | Planned: LLM, RAG, LangChain      |
+| Database        | Planned: PostgreSQL with pgvector |
+| Package manager | pnpm                              |
+| Code quality    | ESLint, Oxlint, Prettier          |
+| Git hooks       | Husky, lint-staged                |
+| CI/CD           | GitHub Actions                    |
 
 ## Project Structure
 
@@ -111,18 +111,18 @@ If your backend is configured to use a different port, use that port instead.
 
 Run these commands from the monorepo root.
 
-| Command | Description |
-|---|---|
-| `pnpm dev:web` | Start the frontend development server |
-| `pnpm dev:api` | Start the backend in development mode |
-| `pnpm build:web` | Build the frontend |
-| `pnpm build:api` | Build the backend |
-| `pnpm lint:web` | Lint the frontend |
-| `pnpm lint:api` | Lint the backend |
-| `pnpm lint` | Run both lint checks |
-| `pnpm format` | Format supported project files |
+| Command             | Description                              |
+| ------------------- | ---------------------------------------- |
+| `pnpm dev:web`      | Start the frontend development server    |
+| `pnpm dev:api`      | Start the backend in development mode    |
+| `pnpm build:web`    | Build the frontend                       |
+| `pnpm build:api`    | Build the backend                        |
+| `pnpm lint:web`     | Lint the frontend                        |
+| `pnpm lint:api`     | Lint the backend                         |
+| `pnpm lint`         | Run both lint checks                     |
+| `pnpm format`       | Format supported project files           |
 | `pnpm format:check` | Check formatting without modifying files |
-| `pnpm test:api` | Run backend tests |
+| `pnpm test:api`     | Run backend tests                        |
 
 ## Environment Variables
 
